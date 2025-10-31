@@ -1,0 +1,109 @@
+:root {
+    --heading-font: "Lato", Black900;
+    --text-font: "Lato", Regular400;
+}
+
+#course-title {
+    display: grid;
+    padding: 15px;
+    align-items: center;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    
+    
+}
+
+section {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+}
+
+h1 {
+    align-items: center;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+header, main, footer {
+    width: 950px;
+    margin: 0 auto;
+}
+main, footer{
+    padding: 20px;
+}
+span {
+    display: block;
+    align-items: center;
+}
+
+
+img {
+    width: auto;
+    height: 200px;
+    float: right;
+    
+}
+aside {
+    float: left;
+}
+aside img {
+    width: 180px;
+    height: auto;
+    padding-top: 25px;
+    
+}
+main {
+    display: grid;
+    grid-template-columns: 530px 390px;
+    grid-template-rows: auto;
+    justify-content: center;
+    column-gap: 10px;
+}
+.navigation a:hover {
+    flex: auto;
+    text-decoration: overline underline;
+    text-decoration-color: #D00000;
+    border: #1C3144;
+} 
+
+.resources{
+    display: flex;
+    flex-direction: column;
+    text-decoration:none;
+    padding: 20px;
+    
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.navigation a {
+    display: block;
+    flex: 1 1 auto;
+    color: white;
+    padding: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+}
+section p {
+    /* display: grid;
+    grid-template-columns: 1fr; */
+    padding: 10px;
+    width: 500px;
+}
+
+footer {
+    padding: 1px;
+    /* align-items: center; */
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
