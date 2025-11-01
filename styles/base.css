@@ -11,13 +11,13 @@
     text-align: center;
     color: white;
     font-size: 25px;
-    
-    
+    font-family: var(--heading-font);
 }
 
 section {
     border-radius: 25px;
-    border: 2px solid #73AD21;
+    border: 2px solid #ccc;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -27,57 +27,86 @@ h1 {
     color: white;
     font-size: 20px;
     padding: 10px;
+    border-radius: 25px;
+    margin: 0;
+    font-family: var(--heading-font);
 }
 
-header, main, footer {
+header,
+main,
+footer {
     width: 950px;
     margin: 0 auto;
 }
-main, footer{
+
+main,
+footer {
     padding: 20px;
 }
+
 span {
     display: block;
     align-items: center;
 }
 
-
-img {
-    width: auto;
-    height: 200px;
-    float: right;
-    
-}
-aside {
-    float: left;
-}
-aside img {
+img.selfie {
     width: 180px;
     height: auto;
-    padding-top: 25px;
-    
+    float: right;
+    margin: 10px 0 10px 20px;
+    border-radius: 10px;
+    padding: 5px;
+    border: 2px solid #ccc;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
+
+img.flag {
+    float: left;
+    width: 180px;
+    height: auto;
+    margin: 10px 20px 10px 0;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 2px solid #ccc;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bio {
+    font-family: var(--text-font);
+    line-height: 1.6;
+}
+
+.geography {
+    font-family: var(--text-font);
+    line-height: 1.6;
+}
+
 main {
     display: grid;
     grid-template-columns: 530px 390px;
     grid-template-rows: auto;
     justify-content: center;
     column-gap: 10px;
+    min-width: 950px;
 }
+
 .navigation a:hover {
     flex: auto;
     text-decoration: overline underline;
     text-decoration-color: #D00000;
     border: #1C3144;
-} 
+}
 
-.resources{
+.resources {
     display: flex;
     flex-direction: column;
-    text-decoration:none;
-    padding: 20px;
-    
+    text-decoration: none;
+    gap: 5px;
+    padding-top: 200px;
+    padding-left: 10px;
+    font-family: var(--heading-font);
 }
+
 .navigation {
     display: flex;
     align-items: center;
@@ -91,19 +120,33 @@ main {
     padding: 0.75rem;
     text-decoration: none;
     text-align: center;
+    font-family: var(--heading-font);
 }
+
 section p {
-    /* display: grid;
-    grid-template-columns: 1fr; */
     padding: 10px;
     width: 500px;
 }
 
 footer {
-    padding: 1px;
-    /* align-items: center; */
+    padding: 10px 20px;
     background-color: blue;
     text-align: center;
     color: white;
     font-size: 15px;
+    font-family: var(--heading-font);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.footer-top, .footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bottom {
+    color: rgb(255, 221, 0);
+    font-size: 13px;
 }
