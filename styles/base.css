@@ -32,6 +32,9 @@ h1 {
     font-family: var(--heading-font);
 }
 
+header{
+    border-top-style: dotted;
+}
 header,
 main,
 footer {
@@ -131,22 +134,20 @@ section p {
 footer {
     padding: 10px 20px;
     background-color: blue;
-    text-align: center;
     color: white;
     font-size: 15px;
     font-family: var(--heading-font);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    border-bottom-style: dotted;
 }
-.footer-top, .footer-bottom {
+footer span{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.footer-bottom {
+footer .modified {
     color: rgb(255, 221, 0);
     font-size: 13px;
 }

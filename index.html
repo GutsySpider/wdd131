@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131 - Dynamic Web Fundamentals - Michael Bowman</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Rubik&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/base.css">
     <script src="scripts/getdates.js" defer></script>
@@ -64,15 +65,14 @@
     </main>
 
     <footer>
-       <div class="footer-top">
-        &copy;<p id="year"></p>
-        <p><span id="currentyear"></span>🚁 Michael Bowman 🚁 USA</p>
-        </div>
-        <div class="footer-bottom">
+       
+        <span>&copy; <p id="year"></p> <span id="currentyear"></span>🚁 Michael Bowman 🚁 USA</span>
         
-        <p>Last Modified:</p>
-        <p><span id="lastModified"></span></p>
-        </div>
+
+        <p>
+        <span class="modified">Last Modified: <span id="lastModified"></span></span>
+        </p>
+
     </footer>
     
 </body>
