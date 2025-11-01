@@ -31,6 +31,17 @@ h1 {
     margin: 0;
     font-family: var(--heading-font);
 }
+.resource-heading {
+    align-items: center;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 0;
+    font-family: var(--heading-font);
+}
 
 header{
     border-top-style: dotted;
