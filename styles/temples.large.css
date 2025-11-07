@@ -4,15 +4,12 @@
         margin-left: 0;
         text-align: center;
     }
-
-    h2 {
-        font-size: 2rem;
-        text-align: center;
+    nav {
+        margin-left: auto;
     }
 
     #menu {
         display: none;
-        /* hide hamburger button */
     }
 
     .navigation {
@@ -24,7 +21,9 @@
         flex: 1 1 100%;
     }
 
-    .stuff {
-        margin: 1rem auto;
+
+    header span {
+        font-weight: 550;
+        font-size: 30px
     }
 }
