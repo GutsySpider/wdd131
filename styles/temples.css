@@ -126,7 +126,6 @@ footer p {
 }
 
 footer .copywrite {
-    display: inline-block;
     display: flex;
 }
 
