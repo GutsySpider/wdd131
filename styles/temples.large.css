@@ -21,6 +21,10 @@
         flex: 1 1 100%;
     }
 
+    .title{
+    font-size: 30px;
+    font-weight: 600;
+    }
 
     header span {
         font-weight: 550;
