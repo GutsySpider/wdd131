@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131 - Country Page</title>
     <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
     <script src="scripts/place.js" defer></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lato:wght@400;900&family=Rubik&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
     <meta name="description" content="WDD 131 - Country Page
     Michael Bowman
     Creating a page of where I live. Use hero image, CSS, and JS to format page to look like provided wireframe">
@@ -27,27 +28,30 @@
                 <source srcset="images/ireland-landscape-large.webp" source media="(min-width: 1000px)">
                 <source srcset="images/ireland-landscape-medium.webp" source media="(min-width: 500px)">
                 <img src="images/ireland-landscape-small.webp" alt="Ireland Landscape" width="500" height="250">
+                <figcaption>Image source: Ireland Landscape https://eskipaper.com/ireland-landscape.html</figcaption>
+                
             </picture>
         </div>
-        <div class="information">
-        <h2>Data</h2>
+        
+            
         <div class="data">
-            <section id="data">
-                <p>Area: 84,421 sq km </p>
-                <p>Population: 523,000,000</p>
-                <p>Capital: Dublin</p>
-                <p>Languages: Irish & English</p>
-                <p>Currency: Euro</p>
-                <p>Time Zone: Greenwich Mean Time (GMT)</p>
-                <p>Calling Code: +353</p>
-                <p>Internet TLD: .ie</p>
-            </section>
+                <h2>Data</h2>
+                <section id="data">
+                    <p>Area: 84,421 sq km </p>
+                    <p>Population: 523,000,000</p>
+                    <p>Capital: Dublin</p>
+                    <p>Languages: Irish & English</p>
+                    <p>Currency: Euro</p>
+                    <p>Time Zone: Greenwich Mean Time (GMT)</p>
+                    <p>Calling Code: +353</p>
+                    <p>Internet TLD: .ie</p>
+                </section>
+        </div>
         
-        
-            <h3 class="after">Weather</h3>
-           
-            <div class="Weather">
-            <?xml version="1.0"?><svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+                
+        <div class="weather">
+                <h3 class="after">Weather</h3>
+                <?xml version="1.0"?><svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
                 <rect fill="none" height="256" width="256" />
                 <path d="M88,148a68,68,0,1,1,68,68H76a44,44,0,0,1,0-88,42.5,42.5,0,0,1,14.3,2.4" fill="#4bacea" stroke="#000"
                     stroke-linecap="round" stroke-linejoin="round" stroke-width="12" />
@@ -61,15 +65,15 @@
                     x2="129.3" y1="64.7" y2="45" />
                 <path d="M51.6,135.4a49.1,49.1,0,0,1-10.9-23.1,48,48,0,0,1,91.1-27.9" fill="#ff8200" stroke="#000"
                     stroke-linecap="round" stroke-linejoin="round" stroke-width="12" />
-            </svg>
-            <section id="weather">
-                <p>Temperature: 8 °C</p>
-                <p>Conditions: Partly Cloudy</p>
-                <p>Wind: 10 km/h</p>
-                <p> Wind Chill: <span id="windchill"></span></p>
-            </section>
+                </svg>
+                <section id="weather">
+                    <p>Temperature: 8 °C</p>
+                    <p>Conditions: Partly Cloudy</p>
+                    <p>Wind: 10 km/h</p>
+                    <p> Wind Chill: <span id="windchill"></span></p>
+                </section>
         </div>
-        </div>
+        
         
     </main>
 

@@ -8,7 +8,6 @@ document.getElementById("lastModified").innerHTML = document.lastModified;
 const temperature = 8;
 const windSpeed = 10; 
 
-
 function calculateWindChill(temp, speed) {
   return (
     13.12 +
@@ -17,7 +16,6 @@ function calculateWindChill(temp, speed) {
     0.3965 * temp * Math.pow(speed, 0.16)
   ).toFixed(1);
 }
-
 
 const windChillElement = document.querySelector('#windchill');
 
