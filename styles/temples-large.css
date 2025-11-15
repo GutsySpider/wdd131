@@ -12,6 +12,10 @@
         display: none;
     }
 
+    #after{
+        display: none;
+    }
+
     .navigation {
         flex-direction: row;
     }

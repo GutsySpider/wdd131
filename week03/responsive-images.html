@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Responsive Images</title>
+    <link rel="stylesheet" href="styles/responsive-images.css">
+    <meta name="description" content="WDD 131 - Responsive Images
+    Michael Bowman
+    setting srcset for images to use different files for certain viewport sizes.">
+    <meta name="author" content="Michael Bowman">
+</head>
+<body>
+    <header>
+   
+    </header>
+
+    <main>
+        <main>
+            <div class="hero">
+                <picture>
+                    <source srcset="images/hero-large.webp" source media="(min-width: 1000px)">
+                    <source srcset="images/hero-medium.webp" source media="(min-width: 500px)">
+                    <img src="images/hero-small.webp" alt="Oquirrh Mountain Utah Temple" width="500" height="250">
+                </picture>
+            </div>
+        </main>
+   
+        
+    </main>
+
+    <footer><p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+@media (max-width: 1000px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Rubik", sans-serif;
+    }
+    .hero{
+        position: relative;
+    }
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+    .data{
+        position: absolute;
+        bottom: 0px;
+        left: 500px;
+    }
+    h2,h3{
+        
+        border: 2px solid #ccc;
+    }
+    body {
+        display: block;
+        background-color: aquamarine;
+    }
+    .after{
+        display: none;
+    }
+}
