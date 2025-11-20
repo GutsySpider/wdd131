@@ -3,93 +3,96 @@
    --secondary-color: #ff8200;
    --text-font: "Pirata One", Regular400;
  }
- 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: var(--text-font);
-} 
 
-.pirata-one-regular {
-  font-family: "Pirata One", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: var(--text-font);
+ }
 
-.hero img {
-  width: 100%;
-  height: auto;
-}
-figcaption{
-  font-size: 10px;
-}
+ .pirata-one-regular {
+   font-family: "Pirata One", system-ui;
+   font-weight: 400;
+   font-style: normal;
+ }
 
-h1{
-  font-size: 35px;
-  font-weight: 900;
-  color: black;
-}
-body {
-  margin: 0;
-  padding: 1rem;
-}
+ .hero img {
+   width: 100%;
+   height: auto;
+ }
 
-header {
-  text-align: center;
-  background-color: var(--primary-color);
-  color: white;
-  padding: 1rem 0;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
+ figcaption {
+   font-size: 10px;
+ }
 
-h2, h3 {
+ h1 {
+   font-size: 35px;
+   font-weight: 900;
+   color: black;
+ }
 
-  color: var(--primary-color);
-  text-align: center;
-}
+ body {
+   margin: 0;
+   padding: 1rem;
+ }
 
+ header {
+   text-align: center;
+   background-color: var(--primary-color);
+   color: white;
+   padding: 1rem 0;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+ }
 
-.data {
-  text-align: center;
-  padding-top: 15px;
-}
+ h2,
+ h3 {
+
+   color: var(--primary-color);
+   text-align: center;
+ }
 
 
-.weather {
-  text-align: center;
-  padding-top: 15px;
-}
+ .data {
+   text-align: center;
+   padding-top: 15px;
+ }
 
 
-.hero {
-  
-  text-align: center;
-}
-
-svg{
-  width: 150px;
-  height: auto;
-  
-}
-
-footer {
-  /* margin-top: 3rem; */
-  padding: 0.5rem;
-  background-color: var(--secondary-color);
-  text-align: center;
-  font-size: 0.9rem;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-
-footer p {
-  margin: 0.5rem 0;
-}
+ .weather {
+   text-align: center;
+   padding-top: 15px;
+ }
 
 
+ .hero {
 
-footer .modified {
-  font-size: 13px;
-}
+   text-align: center;
+ }
+
+ svg {
+   width: 150px;
+   height: auto;
+
+ }
+
+ footer {
+   /* margin-top: 3rem; */
+   padding: 0.5rem;
+   background-color: var(--secondary-color);
+   text-align: center;
+   font-size: 0.9rem;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+ }
+
+ footer p {
+   margin: 0.5rem 0;
+ }
+
+
+
+ footer .modified {
+   font-size: 13px;
+ }

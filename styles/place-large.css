@@ -37,9 +37,10 @@
     .data {
         position: absolute;
         top: 120px;
-        left: 40px;
-        
-
+        left: 40px; 
+    }
+    .svg {
+    display: none;
     }
     .weather {
         position: relative;

@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="styles/place.css">
     <link rel="stylesheet" href="styles/place-large.css">
     <script src="scripts/place.js" defer></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
     <meta name="description" content="WDD 131 - Country Page
     Michael Bowman
     Creating a page of where I live. Use hero image, CSS, and JS to format page to look like provided wireframe">
     <meta name="author" content="Michael Bowman">
 </head>
+
 <body>
     <header>
         <h1>Ireland</h1>
@@ -28,67 +29,70 @@
                 <source srcset="images/ireland-landscape-large.webp" media="(min-width: 1000px)">
                 <source srcset="images/ireland-landscape-medium.webp" media="(min-width: 500px)">
                 <img src="images/ireland-landscape-small.webp" alt="Ireland Landscape" width="500" height="250">
-                
+
             </picture>
             <figure>
                 <figcaption>Image source: Ireland Landscape https://eskipaper.com/ireland-landscape.html</figcaption>
             </figure>
         </div>
-        
-            
+
+
         <div class="data">
             <section id="data">
                 <h2>Data</h2>
                 <p>Area: 84,421 sq km </p>
-                    <p>Population: 523,000,000</p>
-                    <p>Capital: Dublin</p>
-                    <p>Languages: Irish & English</p>
-                    <p>Currency: Euro</p>
-                    <p>Time Zone: Greenwich Mean Time (GMT)</p>
-                    <p>Calling Code: +353</p>
-                    <p>Internet TLD: .ie</p>
-                </section>
-        </div>
-        
-                
-        <div class="weather">
-            <section id="weather">
-                    <h3 class="after">Weather</h3>
-                    <svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
-                    <rect fill="none" height="256" width="256" />
-                    <path d="M88,148a68,68,0,1,1,68,68H76a44,44,0,0,1,0-88,42.5,42.5,0,0,1,14.3,2.4" fill="#4bacea" stroke="#000"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="12" />
-                    <line fill="none" stroke="#ff8200" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" x1="79.7"
-                        x2="75.5" y1="56.7" y2="33.1" />
-                    <line fill="none" stroke="#ff8200" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" x1="48.7"
-                        x2="29" y1="76.5" y2="62.7" />
-                    <line fill="none" stroke="#ff8200" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" x1="40.7"
-                        x2="17.1" y1="112.3" y2="116.5" />
-                    <line fill="none" stroke="#ff8200" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" x1="115.5"
-                        x2="129.3" y1="64.7" y2="45" />
-                    <path d="M51.6,135.4a49.1,49.1,0,0,1-10.9-23.1,48,48,0,0,1,91.1-27.9" fill="#ff8200" stroke="#000"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="12" />
-                    </svg>
-                    <p>Temperature: 8 °C</p>
-                    <p>Conditions: Partly Cloudy</p>
-                    <p>Wind: 10 km/h</p>
-                    <p> Wind Chill: <span id="windchill"></span></p>
+                <p>Population: 523,000,000</p>
+                <p>Capital: Dublin</p>
+                <p>Languages: Irish & English</p>
+                <p>Currency: Euro</p>
+                <p>Time Zone: Greenwich Mean Time (GMT)</p>
+                <p>Calling Code: +353</p>
+                <p>Internet TLD: .ie</p>
             </section>
         </div>
-        
-        
+
+
+        <div class="weather">
+            <section id="weather">
+                <h3 class="after">Weather</h3>
+                <div class="svg">
+                <svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+                    <rect fill="none" height="256" width="256" />
+                    <path d="M88,148a68,68,0,1,1,68,68H76a44,44,0,0,1,0-88,42.5,42.5,0,0,1,14.3,2.4" fill="#4bacea"
+                        stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" />
+                    <line fill="none" stroke="#ff8200" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"
+                        x1="79.7" x2="75.5" y1="56.7" y2="33.1" />
+                    <line fill="none" stroke="#ff8200" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"
+                        x1="48.7" x2="29" y1="76.5" y2="62.7" />
+                    <line fill="none" stroke="#ff8200" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"
+                        x1="40.7" x2="17.1" y1="112.3" y2="116.5" />
+                    <line fill="none" stroke="#ff8200" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"
+                        x1="115.5" x2="129.3" y1="64.7" y2="45" />
+                    <path d="M51.6,135.4a49.1,49.1,0,0,1-10.9-23.1,48,48,0,0,1,91.1-27.9" fill="#ff8200" stroke="#000"
+                        stroke-linecap="round" stroke-linejoin="round" stroke-width="12" />
+                </svg>
+                </div>
+                <p>Temperature: 8 °C</p>
+                <p>Conditions: Partly Cloudy</p>
+                <p>Wind: 10 km/h</p>
+                <p> Wind Chill: <span id="windchill"></span></p>
+            </section>
+        </div>
+
+
     </main>
 
     <footer>
-         <p>
+        <p>
             <span class="copywrite">
                 &copy; <span id="year"></span> 🚁 Michael Bowman 🚁 USA
             </span>
         </p>
         <p>
-        <span class="modified">Last Modified: <span id="lastModified"></span></span>
+            <span class="modified">Last Modified: <span id="lastModified"></span></span>
         </p>
     </footer>
 
 </body>
+
 </html>
