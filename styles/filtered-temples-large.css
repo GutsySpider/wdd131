@@ -20,7 +20,7 @@
         padding: 1rem;
         border-radius: 8px;
         background: #f9f9f9;
-        margin-bottom: 800px;
+        margin-bottom: 200px;
     }
 
     main {
@@ -30,8 +30,6 @@
     }
 
     img {
-        width: 100%;
-        height: auto;
         border-radius: 6px;
         margin-top: 0.5rem;
     }
