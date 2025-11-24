@@ -142,9 +142,11 @@ function createTempleCard(filteredTemples) {
     dedication.innerHTML = `<span class="label">Dedicated:</span> ${temple.dedicated}`;
     
     let img = document.createElement("img");
-    img.setAttribute("src", temple.imageUrl );
+    img.setAttribute("src", temple.imageUrl);
     img.setAttribute("alt", `${ temple.templeName} Temple` );
     img.setAttribute("loading", "lazy");
+    img.setAttribute("width", "400")
+    img.setAttribute("height", "250")
 
     card.appendChild(name);
     card.appendChild(location);
