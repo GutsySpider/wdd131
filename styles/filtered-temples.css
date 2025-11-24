@@ -37,6 +37,10 @@ section p {
     margin: 0.3rem 0;
 }
 
+.imgcopywrite{
+    padding: 10px;
+}
+
 main {
     max-width: 800px;
     margin: 0 auto;
@@ -59,7 +63,7 @@ figcaption {
 }
 
 h1 {
-    font-size: 1.0rem;
+    font-size: 2.5rem;
     margin-left: 0;
     text-align: center;
 }
