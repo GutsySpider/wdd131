@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+.rubik-specail font {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    font-size: 16px;
+    background-color: beige;
+}
+
+header,footer {
+    padding: .5rem 2%;
+    background-color: maroon;
+    color: gold;
+    margin-bottom: 3rem;
+
+}
+
+main {
+    padding: 0 2%;
+    min-height: 20rem;
+}
+
+.wf1 fieldset {
+    border: none;
+    padding: .5rem 2%;
+}
+
+.wf1 legend {
+    color: maroon;
+    padding: 0 .5rem;
+}
+
+.wf1 label {
+    display: block;
+    padding-bottom: 2rem;
+    color: darkred;
+    font-size: .9rem;
+}
+
+input[type="radio"] {
+    display: none;
+    position: relative;
+    caret-color: rgba(0, 0, 0, 0);
+}
+.wf1 input[type="text"],
+.wf1 input[type="date"],
+.wf1 select,
+.wf1 textarea {
+    background-color: #eee;
+    display: block;
+    border: solid 1px gray;
+    border-radius: 6px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+.wf1 input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(red, darkred);
+    color: #fff;
+    border-radius: 6px;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+}
+
+
+
+.stars {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+}
+
+.stars>label {
+    color: black;
+    width: 30px;
+    height: 30px;
+    font-size: 2rem;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    caret-color: rgba(0, 0, 0, 0);
+}
+
+.stars>label:hover {
+    color: #000;
+}
+
+.stars>label::before {
+    content: "\2606";
+}
+
+.stars input:checked~label::before {
+    content: "\2605";
+}
