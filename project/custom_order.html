@@ -18,14 +18,15 @@
 
 <body>
     <header>
+        <button id="menu" title="menu"></button>
         <img src="images/Just_simply_bowman_logo.webp" alt="Just Simply Bowman Logo">
         <nav>
-            <ul class="navigation">
-                <li><a href="homepage.html">Home</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
-                <li><a href="custom_order.html">Custom Orders</a></li>
-                <li><a href="marketplace.html">Shop Now</a></li>
-            </ul>
+            <div class="navigation">
+                <a href="homepage.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="custom_order.html">Custom Orders</a>
+                <a href="marketplace.html">Shop Now</a>
+            </div>
         </nav>
     </header>
 
@@ -33,47 +34,39 @@
         <form method="get" action="confirm_order.html" class="wf1">
             <fieldset>
                 <legend>Product Name*</legend>
-                <label>What product do you have?<select id="productSelect" name="productSelect" required>
-                        <option value="" disabled selected>Select a Product ...&#9662;</option>
+                <label><select id="productSelect" name="productSelect" required>
+                    <option value="" disabled selected>Select a Product ...</option>
                     </select>
                 </label>
             </fieldset>
             <fieldset>
-                <legend>Overall Rating*</legend>
-                <div class="stars">
-                    <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
-                    <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
-                    <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
-                    <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
-                    <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend>Date of Installation*</legend>
-                <label>When was your product installed?<input type="date" id="date" name="completeDate"
+                <legend>Date of Your Event</legend>
+                <label><input type="date" id="date" name="eventDate"
                         required></label>
             </fieldset>
+    
             <fieldset>
-                <legend>Useful Features</legend>
-                <label><input type="checkbox" name="durable" value="yes">Durability</label>
-                <label><input type="checkbox" name="use" value="yes">Ease of Use</label>
-                <label><input type="checkbox" name="performance" value="yes">Performance</label>
-                <label><input type="checkbox" name="design" value="yes">Design</label>
-            </fieldset>
-            <fieldset>
-                <legend>Written Review(optional)</legend>
+                <legend>Customization Explaination</legend>
                 <label> <textarea id="reviewText" name="reviewText" rows="5" cols="40"
-                        placeholder="Share your thoughts..."></textarea></label>
+                        placeholder="Customization thoughts here..."></textarea></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Information</legend>
+            <label class="upload-box" for="fileInput">
+                <div class="upload">
+            </label>
+            <input type="file" id="fileInput" accept="image/*"></div>
             </fieldset>
             <fieldset>
-                <legend>Your Name(optional)</legend>
-                <label><input type="text" name="name" placeholder="Username"></label>
+                <legend>Contact Information</legend>
+                <label><input type="text" name="fname" placeholder="First Name"></label>
+                <label><input type="text" name="lname" placeholder="Last Name"></label>
+                <label><input type="email" name="email" placeholder="Email"></label>
             </fieldset>
 
-            <input type="submit" value="Submit My Review">
+            <input type="submit" value="Submit your custom order">
         </form>
-
-
 
     </main>
 
@@ -88,8 +81,10 @@
         <p>
             <span class="modified">Last Modified: <span id="lastModified"></span></span>
         </p>
+        <p><a href="reference.html">Reference Sheet</a></p>
+        <p><a href="siteplan.html">Site Plan</a></p>
     </footer>
-    </footer>
+
 </body>
 
 </html>

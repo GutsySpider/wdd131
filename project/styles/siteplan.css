@@ -8,27 +8,37 @@ header,
 footer {
     padding: .5rem 2%;
     margin-bottom: 3rem;
+    align-items: center;
+    text-align: center;
 }
 
 main {
     padding: 0 2%;
     min-height: 20rem;
+    align-items: center;
+    text-align: center;
 }
 
-h1 {
+h1, h2, h3{
     color: #3A2F2C;
+    text-align: center;
+    padding: 10px;
+}
+.matching img{
+    align-items: center;
 }
 
 body {
     background-color: #ACD8D3;
-    display: block;
+    
 }
 
 p {
     color: #4B1E06;
+    padding: 10px;
 }
 
-/* header {
+header {
     display: grid;
 }
 header img {
@@ -42,9 +52,9 @@ nav {
     margin-left: auto;
     display: flex;
 
-}
+} 
 
-#menu {
+ #menu {
     font-size: 1.5rem;
     border: 0;
     background: none;
@@ -79,7 +89,7 @@ nav {
     padding: 1rem;
     text-align: center;
     text-decoration: none;
-    color: #fff;
+    color: #4B1E06;
 }
 
 .navigation a:hover {
@@ -88,9 +98,45 @@ nav {
     font-weight: 700;
 }
 
+.wf1 fieldset {
+    border: none;
+    padding: .5rem 2%;
+}
 
+.wf1 label {
+    display: block;
+    padding-bottom: 2rem;
+    font-size: .9rem;
+}
+
+.wf1 input[type="text"],
+.wf1 input[type="submit"],
+.wf1 input[type="date"],
+.wf1 input[type="email"],
+.upload,
+.wf1 select,
+.wf1 textarea {
+    background-color: #eee;
+    display: block;
+    border: solid 1px gray;
+    border-radius: 6px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+.container {
+    display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-gap: 25px;
+        place-items: center;
+}
 .open a {
     display: block;
+}
+
+footer a {
+    color: #4B1E06;
 }
 @media (min-width: 37.5em) {
     h1 {
@@ -98,7 +144,15 @@ nav {
         margin-left: 0;
         text-align: center;
     }
-
+    .homepage {
+        display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            grid-gap: 25px;
+            place-items: center;
+    }
+    .fb-page{
+        padding: 25px;
+    }
     nav {
         margin-left: auto;
     }
@@ -129,4 +183,4 @@ nav {
         font-weight: 550;
         font-size: 30px
     }
-} */
+}

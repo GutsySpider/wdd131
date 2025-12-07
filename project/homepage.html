@@ -10,9 +10,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik&display=swap">
     <link rel="stylesheet" href="styles/siteplan.css">
     <script src="scripts/project.js" defer></script>
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous"
-        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v24.0&appId=APP_ID"></script>
     <meta name="description" content="WDD 131 - Final Project Homepage
     Michael Bowman
     Create a homepage to encourage further interaction.">
@@ -20,47 +17,52 @@
 </head>
 
 <body>
+    
+    <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v24.0&appId=APP_ID"></script>
     <header>
+        <button id="menu" title="menu"></button>
         <img src="images/Just_simply_bowman_logo.webp" alt="Just Simply Bowman Logo">
         <nav>
-            <ul class="navigation">
-                <li><a href="homepage.html">Home</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
-                <li><a href="custom_order.html">Custom Orders</a></li>
-                <li><a href="marketplace.html">Shop Now</a></li>
-            </ul>
+            <div class="navigation">
+                <a href="homepage.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="custom_order.html">Custom Orders</a>
+                <a href="marketplace.html">Shop Now</a>
+            </div>
         </nav>
     </header>
 
     <main>
-        <h2>Enhance your memories with a simply designed Bowman logo</h2>
-        <div class="matching">
-            <figure>
-                <img src="images/my-temple.jpg" alt="oquirrh mountain temple">
-                <figcaption>Match on your next outing!</figcaption>
-            </figure>
+        <div class="homepage">
+            <div class="matching">
+             <figure>
+                    <h3>Match for your next outing?</h3>
+                    <img src="images/editedgroupphoto.webp" alt="matching group">
+                </figure>
+            </div>
+            <div class="gift">
+                <figure>
+                    <h3>Make a Unique Gift</h3>
+                    <img src="images/babygift.webp" alt="gift basket">
+             </figure>
+            </div>
+            <div class="memory">
+                <figure>
+                    <h3>Want to hold onto a memory for a lifetime?</h3>
+                    <img src="images/birthelephant.webp" alt="birth gift">
+                </figure>
+            </div>
+            <div class="craftKits">
+                <figure>
+                    <h3>Make premade crafting kits for you next activity.</h3>
+                    <img src="images/craftingKits.webp" alt="crafting kit">
+                
+                </figure>
+            </div>
         </div>
-        <div class="gift">
-            <figure>
-                <img src="images/my-temple.jpg" alt="oquirrh mountain temple">
-                <figcaption>Watch that unique gift?</figcaption>
-            </figure>
-        </div>
-        <div class="memory">
-            <figure>
-                <img src="images/my-temple.jpg" alt="oquirrh mountain temple">
-                <figcaption>Want to hold onto a memory for a lifetime?</figcaption>
-            </figure>
-        </div>
-        <div class="memory">
-            <figure>
-                <img src="images/my-temple.jpg" alt="oquirrh mountain temple">
-                <figcaption>Premade crafting kits</figcaption>
-            </figure>
-        </div>
-
-        <div class="fb-page" data-href="https://www.facebook.com/justsimplybowman" data-tabs="timeline" data-width="700"
-            data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
+        <div class="fb-page" data-href="https://www.facebook.com/justsimplybowman" data-tabs="timeline" data-width="800"
+            data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
             data-show-facepile="true">
             <blockquote cite="https://www.facebook.com/justsimplybowman/" class="fb-xfbml-parse-ignore"><a
                     href="https://www.facebook.com/justsimplybowman/">Just Simply Bowman</a></blockquote>
@@ -80,7 +82,8 @@
         <p>
             <span class="modified">Last Modified: <span id="lastModified"></span></span>
         </p>
-    </footer>
+        <p><a href="reference.html">Reference Sheet</a></p>
+        <p><a href="siteplan.html">Site Plan</a></p>
     </footer>
 </body>
 

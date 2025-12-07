@@ -24,7 +24,8 @@
         <form method="get" action="review.html" class="wf1">
             <fieldset>
                 <legend>Product Name*</legend>
-                    <label>What product do you have?<select id="productSelect" name="productSelect" required><option value="" disabled selected>Select a Product ...&#9662;</option></select>
+                    <label>
+                        What product do you have?<select id="productSelect" name="productSelect" required><option value="" disabled selected>Select a Product ...&#9662;</option></select>
                     </label>
             </fieldset>
             <fieldset>
@@ -39,22 +40,36 @@
             </fieldset>
             <fieldset>
                 <legend>Date of Installation*</legend>
-                <label>When was your product installed?<input type="date" id="date" name="completeDate" required></label>
+                <label>
+                    When was your product installed?<input type="date" id="date" name="completeDate" required>
+                </label>
             </fieldset>
             <fieldset>
                 <legend>Useful Features</legend>
-                <label><input type="checkbox" name="durable" value="yes">Durability</label>
-                <label><input type="checkbox" name="use" value="yes">Ease of Use</label>
-                <label><input type="checkbox" name="performance" value="yes">Performance</label>
-                <label><input type="checkbox" name="design" value="yes">Design</label>
+                <label>
+                    <input type="checkbox" name="durable" value="yes">Durability
+                </label>
+                <label>
+                    <input type="checkbox" name="use" value="yes">Ease of Use
+                </label>
+                <label>
+                    <input type="checkbox" name="performance" value="yes">Performance
+                </label>
+                <label>
+                    <input type="checkbox" name="design" value="yes">Design
+                </label>
             </fieldset>
             <fieldset>
                 <legend>Written Review(optional)</legend>
-                <label> <textarea id="reviewText" name="reviewText" rows="5" cols="40" placeholder="Share your thoughts..."></textarea></label>
+                <label> 
+                    <textarea id="reviewText" name="reviewText" rows="5" cols="40" placeholder="Share your thoughts..."></textarea>
+                </label>
             </fieldset>
             <fieldset>
                 <legend>Your Name(optional)</legend>
-                <label><input type="text" name="name" placeholder="Username"></label>
+                <label>
+                    <input type="text" name="name" placeholder="Username">
+                </label>
             </fieldset>
 
             <input type="submit" value="Submit My Review">
