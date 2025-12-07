@@ -117,36 +117,91 @@ const apparel = [
         name: "Classic T-Shirt",
         description: "Soft cotton tee with tailored fit.",
         price: 19.99,
-        category: "tops",
         imageUrl: "images/backToSchool.webp"
     },
     {
         name: "Decorations",
         description: "Bright, Fun, Customizable",
         price: 15.50,
-        category: "decor",
         imageUrl: "images/decorations.webp"
     },
     {
         name: "Bow",
-        description: "Lightweight, Durable",
+        description: "Stretch, Cottom, 3 Sizes",
         price: 10.00,
-        category: "footwear",
         imageUrl: "images/bows.webp"
     },
     {
         name: "Pinata",
-        description: "Durable, customizable, Fluffy",
+        description: "Durable, customizable",
         price: 84.00,
-        category: "Party",
         imageUrl: "images/stitch.webp"
     },
     {
         name: "Sweater",
         description: "100% cotton super soft texture.",
         price: 48.00,
-        category: "tops",
         imageUrl: "images/treeSweater.webp"
+    },
+    {
+        name: "Baby Bow",
+        description: "Made to order, Customizable, Ear to Ear flowers",
+        price: 10.99,
+        imageUrl: "images/babybow.webp"
+    },
+    {
+        name: "Sticker",
+        description: "Easy, Quick, Customizable",
+        price: 19.50,
+        imageUrl: "images/sticker.webp"
+    },
+    {
+        name: "Murder Tee",
+        description: "65% polyester",
+        price: 30.00,
+        imageUrl: "images/murdertee.webp"
+    },
+    {
+        name: "Wall Art",
+        description: "3D, Princess Dresses",
+        price: 84.00,
+        imageUrl: "images/wallart.webp"
+    },
+    {
+        name: "Boo Bow",
+        description: "Faux leather clip",
+        price: 10.00,
+        imageUrl: "images/boobow.webp"
+    },
+    {
+        name: "Hair Clip",
+        description: "Minimal, Fabric, Flower, Aligator clip",
+        price: 19.99,
+        imageUrl: "images/hairclip.webp"
+    },
+    {
+        name: "Duo Shirts",
+        description: "Two shirts, Ink or Vinyl designs",
+        price: 35.50,
+        imageUrl: "images/pairshirts.webp"
+    },
+    {
+        name: "Ties",
+        description: "Patters and solids, Customizable",
+        price: 10.00,
+        imageUrl: "images/ties.webp"
+    },
+    {
+        name: "Skull Door Decor",
+        description: "Durable, Custom floral arrangement",
+        price: 84.00,
+        imageUrl: "images/skulldoordecor.webp"
+    },
+    {
+        name: "Baseball Shirt",
+        description: "Any team, Any color",
+        price: 25.00,
+        imageUrl: "images/baseballshirt.webp"
     }
 ];
 
