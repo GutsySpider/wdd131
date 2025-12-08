@@ -32,6 +32,9 @@ const products = [
     { name: "Other" }
 ];
 
+
+
+
 function populateProducts() {
     const select = document.getElementById("productSelect");
     if (!select) return;

@@ -6,10 +6,10 @@
 
 header,
 footer {
-    padding: .5rem 2%;
     margin-bottom: 3rem;
     align-items: center;
     text-align: center;
+    background-color: #4B1E06;
 }
 
 main {
@@ -135,8 +135,8 @@ nav {
     display: block;
 }
 
-footer a {
-    color: #4B1E06;
+footer a, footer p {
+    color: #ffff;
 }
 @media (min-width: 37.5em) {
     h1 {
